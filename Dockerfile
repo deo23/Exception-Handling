@@ -5,7 +5,7 @@ FROM openjdk:17-alpine
 WORKDIR /app
 
 # Copy your Spring Boot application's JAR file into the container
-COPY /target/A1-1.0-EXCEPTION-HANDLING.jar /app/app.jar
+COPY target/A1-1.0-EXCEPTION-HANDLING.jar /app/app.jar
 
 # Expose the port your Spring Boot application listens on (replace 8080 with your application's port)
 EXPOSE 8080
